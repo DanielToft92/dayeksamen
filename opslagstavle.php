@@ -26,11 +26,10 @@ require "settings/init.php";
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div class="navbar-nav mx-auto">
                 <a class="nav-link" href="#">Om os</a>
                 <a class="nav-link" href="#">Kalender</a>
-                <a class="nav-link active" href="opslagstavle.php">Opslagstavle</a>
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="opslagstavle.php">Opslagstavle</a>
             </div>
         </div>
     </div>

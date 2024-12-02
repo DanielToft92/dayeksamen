@@ -32,7 +32,46 @@ body {
 
 /* Navbar */
 
+.navbar{
 
+}
+
+/* Banner */
+
+.banner {
+	color: white; /* Ensures text is visible */
+	font-family: Playfair Display;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow to the text for contrast */
+	height: 300px; /* Adjust the height as needed */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center; /* Ensures text is centered horizontally */
+}
+
+.banner h1 {
+	font-size: 4rem; /* Adjust the size as needed */
+}
+
+.banner p {
+	font-size: 2rem; /* Adjust the size as needed */
+}
+
+/* Media query for iPhone 16 Pro Max and smaller screens */
+@media (max-width: 430px) {
+	.banner h1 {
+		font-size: 3rem; /* Smaller font size for smaller screens */
+	}
+
+	.banner p {
+		font-size: 1.5rem; /* Smaller font size for smaller screens */
+	}
+
+	.banner {
+		height: 250px; /* Adjust the height for smaller screens */
+	}
+}
 
 
 /* Opslagstavle */

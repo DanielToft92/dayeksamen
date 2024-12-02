@@ -25,7 +25,9 @@ require "settings/init.php";
 <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-image: url('billeder/navbaggrund5.png'); background-size: cover; background-position: center;">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php" style="color: #ffffff">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler"  style="color: #ffffff" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -42,8 +44,40 @@ require "settings/init.php";
 <div class="banner text-center text-white py-5" style="background-image:
 url('billeder/træplanker.png'); background-size: cover; background-position: center; height: 300px;">
     <h1>Velkommen til vores hjemmeside</h1>
-    <p>En grøn og bæredygtig løsning!</p>
+    <p>"Byt dig til en bæredygtig fremtid"</p>
 </div>
+
+
+<p class="paragraph"> ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
+    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
+    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
+    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
+    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
+    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord</p>
+
+
+<!-- Footer -->
+<footer class="footer mt-auto py-3" style="background-color: #6B8E23; color: #fff; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <h5>Kontakt Os</h5>
+                <p>Email: info@dinhjemmeside.dk</p>
+                <p>Telefon: +45 1234 5678</p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Følg Os</h5>
+                <a href="#" style="color: #fff; text-decoration: none; margin: 0 10px;"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#" style="color: #fff; text-decoration: none; margin: 0 10px;"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <h5>Om Projektet</h5>
+                <p>Swap-It er din platform til bæredygtig byttehandel.</p>
+                <p>"Byt dig til en bæredygtig fremtid"</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 

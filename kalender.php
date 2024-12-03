@@ -43,7 +43,7 @@ require "settings/init.php";
 </nav>
 
 <div class="h1omos">
-    <h1>Om os</h1>
+    <h1>Event Kalender</h1>
 </div>
 
 

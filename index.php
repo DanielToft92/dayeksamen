@@ -53,7 +53,6 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
 </p>
 
 
-<!-- Carousel -->
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -76,7 +75,7 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
     </button>
 </div>
 
-<!-- Footer -->
+
 <footer class="footer mt-auto py-3"
         style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center; color: #000000; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;">
     <div class="container text-center">

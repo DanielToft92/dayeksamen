@@ -22,19 +22,19 @@ require "settings/init.php";
 
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-image: url('billeder/navbaggrund5.png'); background-size: cover; background-position: center;">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php" style="color: #ffffff">Navbar</a>
-        <button class="navbar-toggler"  style="color: #ffffff" type="button" data-bs-toggle="collapse"
+        <a class="navbar-brand" href="index.php"">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
-                <a class="nav-link" href="#" style="color: #ffffff">Om os</a>
-                <a class="nav-link" href="#" style="color: #ffffff">Kalender</a>
-                <a class="nav-link" href="opslagstavle.php" style="color: #ffffff">Opslagstavle</a>
+                <a class="nav-link" href="#">Om os</a>
+                <a class="nav-link" href="#">Kalender</a>
+                <a class="nav-link" href="opslagstavle.php">Opslagstavle</a>
             </div>
         </div>
     </div>
@@ -48,39 +48,70 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
 </div>
 
 
-<p class="paragraph"> ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
-    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
-    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
-    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
-    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord
-    ForordForordForordForordForordForordForordForordForordForordForordForordForordForordForord</p>
+<p class="paragraph">Bæredygtighed er fundamentet for fremtiden. I en verden med begrænsede ressourcer er det vigtigt at
+    handle ansvarligt. Hos Re-Trade stræber vi efter at gøre netop dette og skabe en mere bæredygtig fremtid.
+</p>
 
+
+<!-- Carousel -->
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="billeder/carousel.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="billeder/carousel2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="billeder/carousel3.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
 <!-- Footer -->
-<footer class="footer mt-auto py-3" style="background-color: #6B8E23; color: #fff; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;">
+<footer class="footer mt-auto py-3"
+        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center; color: #000000; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 mb-3">
-                <h5>Kontakt Os</h5>
-                <p>Email: info@dinhjemmeside.dk</p>
-                <p>Telefon: +45 1234 5678</p>
+                <h5 style="color: inherit;">Kontakt Os</h5>
+                <p style="color: inherit;">Email: re-trade@zealand.dk</p>
+                <p style="color: inherit;">Telefon: +45 12345678</p>
             </div>
             <div class="col-md-4 mb-3">
-                <h5>Følg Os</h5>
-                <a href="#" style="color: #fff; text-decoration: none; margin: 0 10px;"><i class="fab fa-facebook"></i> Facebook</a>
-                <a href="#" style="color: #fff; text-decoration: none; margin: 0 10px;"><i class="fab fa-instagram"></i> Instagram</a>
+                <h5 style="color: inherit;">Følg Os</h5>
+                <a href="#" style="color: inherit; text-decoration: none; margin: 0 10px;">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="#" style="color: inherit; text-decoration: none; margin: 0 10px;">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
             </div>
             <div class="col-md-4 mb-3">
-                <h5>Om Projektet</h5>
-                <p>Swap-It er din platform til bæredygtig byttehandel.</p>
-                <p>"Byt dig til en bæredygtig fremtid"</p>
+                <h5 style="color: inherit;">Om Projektet</h5>
+                <p style="color: inherit;">Re-Trade er din platform til bæredygtig byttehandel.</p>
+                <p style="color: inherit;">"Byt dig til en bæredygtig fremtid"</p>
             </div>
         </div>
     </div>
 </footer>
 
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const footer = document.querySelector(".footer");
+        const footerHeight = footer.offsetHeight;
+        document.body.style.paddingBottom = `${footerHeight}px`;
+    });
 
-
+</script>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

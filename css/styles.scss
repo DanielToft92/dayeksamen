@@ -36,18 +36,49 @@ body {
 
 }
 
+/* Index item */
+
+/* Set a fixed height for the carousel items */
+
+#carouselExampleAutoplaying .carousel-inner {
+	height: 400px; /* Fixed height for carousel container */
+}
+
+#carouselExampleAutoplaying .carousel-item {
+	height: 100%; /* Ensure carousel items take the full height of the carousel */
+}
+
+#carouselExampleAutoplaying .carousel-item img {
+	object-fit: cover; /* Ensure the image covers the container without distortion */
+	width: 100%; /* Image should fill the container width */
+	height: 100%; /* Image should fill the container height */
+}
+
+/* Optional: Add margin-top for spacing */
+#carouselExampleAutoplaying {
+	margin-top: 20px;
+}
+
+
+
 /* Footer */
 
+body {
+	margin: 0;
+	padding-bottom: 60px; /* Space for the footer height */
+}
+
 .footer {
-	background-color: #6B8E23; /* Match the theme with a green tone */
+	background-color: #6B8E23;
 	color: #fff;
 	padding: 15px 0;
-	position: fixed; /* Sticks to the bottom */
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	z-index: 1000; /* Ensures the footer stays above other content */
+	z-index: 1000;
 	text-align: center;
+	height: 60px; /* Set a fixed height for the footer */
 }
 
 .footer h5 {
@@ -64,18 +95,20 @@ body {
 }
 
 .footer a:hover {
-	color: #00b894; /* Highlight color on hover */
+	color: #00b894;
 }
 
 @media (max-width: 768px) {
 	.footer {
 		font-size: 0.8rem;
+		height: auto; /* Adjust height for smaller screens */
 	}
 
 	.footer .row div {
 		margin-bottom: 10px;
 	}
 }
+
 
 
 

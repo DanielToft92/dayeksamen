@@ -38,6 +38,7 @@ body {
 
 /* Omos Items */
 
+
 /* H1 */
 
 .h1omos{
@@ -45,10 +46,56 @@ body {
 	justify-content: center;
 	text-align: center;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 div.h1omos h1 {
 	font-size: 3em; /* Adjust the size as needed */
+	color: #ece4cf;
+}
+
+
+/* Kalender Cards */
+
+.card {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  /* Smooth hover effect */
+	background-color: #f9f9f9;  /* Light background color */
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+/* Header Styling */
+
+.card-header {
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #ece4cf;
+	text-align: center;
+	background-color: #978a6f;
+	border-bottom: 1px solid #978a6f;
+}
+
+/* Body Styling */
+.card-body {
+	padding: 1.25rem;
+	color: #9a8977;
+	background-color: #ece4cf;
+}
+
+/* Footer Styling */
+.card-footer {
+	background-color: #978a6f;
+	color: #ece4cf;
+	font-size: 0.875rem;
+	text-align: center;
+	border-top: 1px solid #978a6f;
+}
+
+.row > .col-12:last-of-type .card {
+	margin-bottom: 20px; /* Adds space only to the last card */
 }
 
 
@@ -57,18 +104,20 @@ div.h1omos h1 {
 
 body {
 	margin: 0;
-	padding-bottom: 60px; /* Space for the footer height */
+	min-height: 100vh; /* Ensure the body is at least the full viewport height */
+	display: flex;
+	flex-direction: column; /* Allow the footer to push to the bottom */
+}
+
+.main-content {
+	flex: 1; /* Allow main content to take up remaining space */
 }
 
 .footer {
 	background-color: #6B8E23;
 	color: #fff;
 	padding: 15px 0;
-	position: fixed;
-	bottom: 0;
-	left: 0;
 	width: 100%;
-	z-index: 1000;
 	text-align: center;
 }
 
@@ -92,13 +141,14 @@ body {
 @media (max-width: 768px) {
 	.footer {
 		font-size: 0.8rem;
-		height: auto; /* Adjust height for smaller screens */
+		height: auto;
 	}
 
 	.footer .row div {
 		margin-bottom: 10px;
 	}
 }
+
 
 
 
@@ -178,7 +228,7 @@ body {
 
 /* Add Note Button */
 #addNote {
-	background: linear-gradient(135deg, #876955, #7e9849); /* Vibrant gradient */
+	background: linear-gradient(135deg, #876955, #ece4cf); /* Vibrant gradient */
 	color: #fff;
 	font-family: 'Urbanist', sans-serif;
 	font-size: 1rem;
@@ -192,7 +242,7 @@ body {
 }
 
 #addNote:hover {
-	background: linear-gradient(135deg, #7e9849, #876955); /* Invert gradient */
+	background: linear-gradient(135deg, #ece4cf, #876955); /* Invert gradient */
 	transform: scale(1.05);
 }
 

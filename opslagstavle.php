@@ -44,7 +44,7 @@ require "settings/init.php";
 
 
 <footer class="footer mt-auto py-3"
-        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center; color: #000000; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;">
+        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center; color: #000000;">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 mb-3">
@@ -60,6 +60,12 @@ require "settings/init.php";
                 <a href="#" style="color: inherit; text-decoration: none; margin: 0 10px;">
                     <i class="fab fa-instagram"></i> Instagram
                 </a>
+                <a href="#" style="color: inherit; text-decoration: none; margin: 0 10px;">
+                    <i class="fab fa-tik-tok"></i> Tik-Tok
+                </a>
+                <a href="#" style="color: inherit; text-decoration: none; margin: 0 10px;">
+                    <i class="fab fa-youtube"></i> Youtube
+                </a>
             </div>
             <div class="col-md-4 mb-3">
                 <h5 style="color: inherit;">Om Projektet</h5>
@@ -70,14 +76,8 @@ require "settings/init.php";
     </div>
 </footer>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const footer = document.querySelector(".footer");
-        const footerHeight = footer.offsetHeight;
-        document.body.style.paddingBottom = `${footerHeight}px`;
-    });
 
-</script>
+
 
 <script>
 

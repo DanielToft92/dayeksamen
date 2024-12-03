@@ -42,11 +42,13 @@ require "settings/init.php";
     </div>
 </nav>
 
+
 <div class="h1omos">
 <h1>Om os</h1>
 </div>
 
-<div class="container text-center">
+
+<div class="container text-center custom-margin">
     <div class="row row-cols-2">
         <div class="col mt-4">
             <img src="billeder/omos/sustain.jpg" alt="Description of image 1" class="img-fluid">
@@ -72,6 +74,30 @@ require "settings/init.php";
                 This is a paragraph of text related to the second image.
                 This is a paragraph of text related to the second image.</p>
         </div>
+        <div class="col mt-3">
+            <p>This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.</p>
+        </div>
+        <div class="col mt-3">
+            <img src="billeder/omos/sustain.jpg" alt="Description of image 4" class="img-fluid">
+        </div>
+        <div class="col mt-4">
+            <img src="billeder/omos/sustain2.jpg" alt="Description of image 1" class="img-fluid">
+        </div>
+        <div class="col mt-4">
+            <p>This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.</p>
+        </div>
+        <div class="col mt-3">
+            <p>This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.</p>
+        </div>
+        <div class="col mt-3">
+            <img src="billeder/omos/sustain3.jpg" alt="Description of image 4" class="img-fluid">
+        </div>
     </div>
 </div>
 
@@ -79,8 +105,7 @@ require "settings/init.php";
 
 
 <footer class="footer mt-auto py-3"
-        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center;
-        color: #000000; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;">
+        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center; color: #000000;">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 mb-3">
@@ -112,14 +137,8 @@ require "settings/init.php";
     </div>
 </footer>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const footer = document.querySelector(".footer");
-        const footerHeight = footer.offsetHeight;
-        document.body.style.paddingBottom = `${footerHeight}px`;
-    });
 
-</script>
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

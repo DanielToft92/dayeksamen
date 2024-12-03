@@ -77,8 +77,7 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
 
 
 <footer class="footer mt-auto py-3"
-        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center;
-        color: #000000; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;">
+        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center; color: #000000;">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 mb-3">
@@ -110,14 +109,8 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
     </div>
 </footer>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const footer = document.querySelector(".footer");
-        const footerHeight = footer.offsetHeight;
-        document.body.style.paddingBottom = `${footerHeight}px`;
-    });
 
-</script>
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

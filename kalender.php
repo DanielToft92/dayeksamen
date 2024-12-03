@@ -47,38 +47,35 @@ require "settings/init.php";
 </div>
 
 
-<div class="row g-2">
-    <?php
-    $kalender = $db->sql("SELECT * FROM kalender");
-    foreach($kalender as $kalenderen) {
-        ?>
-        <div class="col-12 col-md-6">
-            <div class="card w-100">
-                <div class="card-header">
-                    <?php
-                    echo $kalenderen->eventNavn;
-                    ?>
-                </div>
-                <div class="card-body">
-                    <?php
-                    echo $kalenderen->eventBeskrivelse;
-                    ?>
-                </div>
-                <div class="card-footer text-muted">
-                    <?php
-                   echo $kalenderen->eventDato;
-                    ?>
+<div class="container">
+    <div class="row g-3"> <!-- Adjusted spacing between rows -->
+        <?php
+        $kalender = $db->sql("SELECT * FROM kalender");
+        foreach ($kalender as $kalenderen) {
+            ?>
+            <div class="col-12 col-sm-10 col-md-6 mx-auto"> <!-- Center cards and adjust widths -->
+                <div class="card">
+                    <div class="card-header text-center"> <!-- Center align text -->
+                        <?php echo $kalenderen->eventNavn; ?>
+                    </div>
+                    <div class="card-body">
+                        <?php echo $kalenderen->eventBeskrivelse; ?>
+                    </div>
+                    <div class="card-footer">
+                        <?php echo $kalenderen->eventDato; ?>
+                    </div>
                 </div>
             </div>
-        </div>
-        <?php
-    }
-    ?>
+            <?php
+        }
+        ?>
+    </div>
+</div>
+
 
 
 <footer class="footer mt-auto py-3"
-        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center;
-        color: #000000; position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;">
+        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center; color: #000000;">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 mb-3">
@@ -110,14 +107,8 @@ require "settings/init.php";
     </div>
 </footer>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const footer = document.querySelector(".footer");
-        const footerHeight = footer.offsetHeight;
-        document.body.style.paddingBottom = `${footerHeight}px`;
-    });
 
-</script>
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

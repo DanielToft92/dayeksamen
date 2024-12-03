@@ -47,6 +47,33 @@ require "settings/init.php";
 </div>
 
 
+<div class="row g-2">
+    <?php
+    $kalender = $db->sql("SELECT * FROM kalender");
+    foreach($kalender as $kalenderen) {
+        ?>
+        <div class="col-12 col-md-6">
+            <div class="card w-100">
+                <div class="card-header">
+                    <?php
+                    echo $kalenderen->eventNavn;
+                    ?>
+                </div>
+                <div class="card-body">
+                    <?php
+                    echo $kalenderen->eventBeskrivelse;
+                    ?>
+                </div>
+                <div class="card-footer text-muted">
+                    <?php
+                   echo $kalenderen->eventDato;
+                    ?>
+                </div>
+            </div>
+        </div>
+        <?php
+    }
+    ?>
 
 
 <footer class="footer mt-auto py-3"

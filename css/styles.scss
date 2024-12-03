@@ -36,9 +36,20 @@ body {
 
 }
 
-/* Index item */
+/* Omos Items */
 
+/* H1 */
 
+.h1omos{
+	font-family: "Playfair Display";
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.h1omos h1 {
+	font-size: 3em; /* Adjust the size as needed */
+}
 
 
 
@@ -59,7 +70,6 @@ body {
 	width: 100%;
 	z-index: 1000;
 	text-align: center;
-	height: 60px; /* Set a fixed height for the footer */
 }
 
 .footer h5 {

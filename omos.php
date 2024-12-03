@@ -4,20 +4,22 @@ require "settings/init.php";
 <!DOCTYPE html>
 <html lang="da">
 <head>
-	<meta charset="utf-8">
-	
-	<title>Sigende titel</title>
-	
-	<meta name="robots" content="All">
-	<meta name="author" content="Udgiver">
-	<meta name="copyright" content="Information om copyright">
-	
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+
+    <title>Sigende titel</title>
+
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 </head>
 
 <body>
@@ -40,40 +42,40 @@ require "settings/init.php";
     </div>
 </nav>
 
-
-<div class="banner text-center text-white py-5" style="background-image:
-url('billeder/træplanker.png'); background-size: cover; background-position: center; height: 300px;">
-    <h1>Velkommen til vores hjemmeside</h1>
-    <p>"Byt dig til en bæredygtig fremtid"</p>
+<div class="h1omos">
+<h1>Om os</h1>
 </div>
 
-
-<p class="paragraph">Bæredygtighed er fundamentet for fremtiden. I en verden med begrænsede ressourcer er det vigtigt at
-    handle ansvarligt. Hos Re-Trade stræber vi efter at gøre netop dette og skabe en mere bæredygtig fremtid.
-</p>
-
-
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="billeder/carousel.png" class="d-block w-100" alt="...">
+<div class="container text-center">
+    <div class="row row-cols-2">
+        <div class="col mt-4">
+            <img src="billeder/omos/sustain.jpg" alt="Description of image 1" class="img-fluid">
         </div>
-        <div class="carousel-item">
-            <img src="billeder/carousel2.png" class="d-block w-100" alt="...">
+        <div class="col mt-4">
+            <p>This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.</p>
         </div>
-        <div class="carousel-item">
-            <img src="billeder/carousel3.png" class="d-block w-100" alt="...">
+        <div class="col mt-3">
+            <p>This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.</p>
+        </div>
+        <div class="col mt-3">
+            <img src="billeder/omos/sustain2.jpg" alt="Description of image 4" class="img-fluid">
+        </div>
+        <div class="col mt-5">
+            <img src="billeder/omos/sustain3.jpg" alt="Description of image 1" class="img-fluid">
+        </div>
+        <div class="col mt-5">
+            <p>This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.
+                This is a paragraph of text related to the second image.</p>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
 </div>
+
+
 
 
 <footer class="footer mt-auto py-3"

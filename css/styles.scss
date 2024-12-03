@@ -168,7 +168,7 @@ body {
 
 /* Add Note Button */
 #addNote {
-	background: linear-gradient(135deg, #8B5E3C, #6B8E23); /* Vibrant gradient */
+	background: linear-gradient(135deg, #876955, #7e9849); /* Vibrant gradient */
 	color: #fff;
 	font-family: 'Urbanist', sans-serif;
 	font-size: 1rem;
@@ -182,7 +182,7 @@ body {
 }
 
 #addNote:hover {
-	background: linear-gradient(135deg, #6B8E23, #8B5E3C); /* Invert gradient */
+	background: linear-gradient(135deg, #7e9849, #876955); /* Invert gradient */
 	transform: scale(1.05);
 }
 

@@ -94,6 +94,12 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
                 <a href="#" style="color: inherit; text-decoration: none; margin: 0 10px;">
                     <i class="fab fa-instagram"></i> Instagram
                 </a>
+                <a href="#" style="color: inherit; text-decoration: none; margin: 0 10px;">
+                    <i class="fab fa-tik-tok"></i> Tik-Tok
+                </a>
+                <a href="#" style="color: inherit; text-decoration: none; margin: 0 10px;">
+                    <i class="fab fa-youtube"></i> Youtube
+                </a>
             </div>
             <div class="col-md-4 mb-3">
                 <h5 style="color: inherit;">Om Projektet</h5>

@@ -21,6 +21,10 @@ require "settings/init.php";
 
 <?php include("navbar.php") ?>
 
+<div class="h1omos">
+    <h1>Opslagstavle</h1>
+</div>
+
 
 <div id="board">
     <button id="addNote">Tilføj note</button>

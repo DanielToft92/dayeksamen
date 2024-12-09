@@ -82,6 +82,7 @@ require "settings/init.php";
                 <h5 style="color: inherit;">Kontakt Os</h5>
                 <p style="color: inherit;">Email: re-trade@zealand.dk</p>
                 <p style="color: inherit;">Telefon: +45 12345678</p>
+                <p style="color: inherit;">Adresse: Søndre Badevej 1, 4600 Køge</p>
             </div>
             <div class="col-md-4 mb-3">
                 <h5 style="color: inherit;">Følg Os</h5>

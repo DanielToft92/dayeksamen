@@ -102,6 +102,25 @@ require "settings/init.php";
 </div>
 
 
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 mt-5 mb-5">
+            <div class="ratio ratio-16x9">
+                <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4525.297591490187!2d12.188052577149772!3d55.45135551516891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652f051c5406bdb%3A0x4e8db22d6ff7c142!2sS%C3%B8ndre%20Badevej%201%2C%204600%20K%C3%B8ge!5e0!3m2!1sda!2sdk!4v1733749569134!5m2!1sda!2sdk"
+                        style="border: 0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 
 <footer class="footer mt-auto py-3"
@@ -112,6 +131,7 @@ require "settings/init.php";
                 <h5 style="color: inherit;">Kontakt Os</h5>
                 <p style="color: inherit;">Email: re-trade@zealand.dk</p>
                 <p style="color: inherit;">Telefon: +45 12345678</p>
+                <p style="color: inherit;">Adresse: Søndre Badevej 1, 4600 Køge</p>
             </div>
             <div class="col-md-4 mb-3">
                 <h5 style="color: inherit;">Følg Os</h5>

@@ -12,7 +12,15 @@ require "settings/init.php";
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Re-Trade er din bæredygtige platform til tøjbytte. Deltag i vores events i Køge og gør en forskel for miljøet!">
+    <meta name="keywords" content="Re-Trade, tøjbytte, bæredygtighed, Køge, genbrug, events">
+    <meta name="author" content="Re-Trade">
+
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -24,6 +32,16 @@ require "settings/init.php";
 <div class="h1omos">
     <h1>Opslagstavle</h1>
 </div>
+
+<!-- Bulletin Board Section -->
+<section id="bulletin-board" style="text-align: center;">
+    <p>Velkommen til opslagstavlen på Re-Trade – stedet hvor du kan vise dine mest unikke items frem og skabe interesse til vores næste event. Har du en særlig genstand, som du gerne vil bytte? Måske en designerhåndtaske, en vintage jakke eller et par limited edition sneakers? Del det her, så andre kan få øje på din vare og tage noget med, de tror, du vil være interesseret i.</p>
+    <p><strong>Sådan fungerer det:</strong></p>
+    <p>Upload et billede af din unikke vare.</p>
+    <p>Tilføj en beskrivelse af varen – f.eks. mærke, størrelse og stand.</p>
+    <p>Angiv datoen, til hvilket kommende event varen kan findes til.</p>
+</section>
+
 
 
 <div id="board">
@@ -41,7 +59,6 @@ require "settings/init.php";
     const board = document.getElementById('board');
     const addNoteBtn = document.getElementById('addNote');
 
-    // Load saved notes from localStorage on page load
     window.addEventListener('DOMContentLoaded', () => {
         const savedNotes = JSON.parse(localStorage.getItem('notes')) || [];
         savedNotes.forEach(noteData => {
@@ -49,17 +66,15 @@ require "settings/init.php";
         });
     });
 
-    // Add Note Button
     addNoteBtn.addEventListener('click', () => {
-        createNote('', '', '', false); // Create a new empty note
+        createNote('', '', '', false);
     });
 
-    // Function to create and add a note to the board
+
     function createNote(name, date, description, isSaved) {
         const note = document.createElement('div');
         note.classList.add('note');
 
-        // Add form fields
         note.innerHTML = `
     <input type="text" placeholder="Navn" value="${name}" ${isSaved ? 'disabled' : ''} required>
     <input type="date" value="${date}" ${isSaved ? 'disabled' : ''} required>
@@ -70,17 +85,14 @@ require "settings/init.php";
     </div>
   `;
 
-        // Add note to the board
         board.appendChild(note);
 
-        // Save note functionality
         note.querySelector('.saveNote').addEventListener('click', () => {
             const inputs = note.querySelectorAll('input, textarea');
             let isComplete = true;
 
-            // Validate inputs
             inputs.forEach(input => {
-                if (!input.value.trim()) { // Check for empty or whitespace-only values
+                if (!input.value.trim()) {
                     input.style.borderColor = 'red';
                     isComplete = false;
                 } else {
@@ -91,29 +103,24 @@ require "settings/init.php";
             if (isComplete) {
                 alert('Noten er gemt!');
 
-                // Lock the fields after saving
                 inputs.forEach(input => input.setAttribute('disabled', true));
 
-                // Hide the save button after saving
                 note.querySelector('.saveNote').style.display = 'none';
 
-                // Save all notes to localStorage
                 saveNotesToLocalStorage();
             } else {
                 alert('Hver venlig og udfyld alle felter.');
             }
         });
 
-        // Delete note functionality
         note.querySelector('.deleteNote').addEventListener('click', () => {
             if (confirm('Er du sikker på at du vil slette noten?')) {
                 note.remove();
-                saveNotesToLocalStorage(); // Update localStorage after deletion
+                saveNotesToLocalStorage();
             }
         });
     }
 
-    // Save all notes to localStorage
     function saveNotesToLocalStorage() {
         const notes = [];
         board.querySelectorAll('.note').forEach(note => {
@@ -129,10 +136,7 @@ require "settings/init.php";
         localStorage.setItem('notes', JSON.stringify(notes));
     }
 
-
-
-
-</script>
+    </script>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

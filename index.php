@@ -11,7 +11,12 @@ require "settings/init.php";
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
-	
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Re-Trade er din bæredygtige platform til tøjbytte. Deltag i vores events i Køge og gør en forskel for miljøet!">
+    <meta name="keywords" content="Re-Trade, tøjbytte, bæredygtighed, Køge, genbrug, events">
+    <meta name="author" content="Re-Trade">
+
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,14 +32,44 @@ require "settings/init.php";
 
 <div class="banner text-center text-white py-5" style="background-image:
 url('billeder/træplanker.png'); background-size: cover; background-position: center; height: 300px;">
-    <h1>Velkommen til vores hjemmeside</h1>
+    <h1>Velkommen til Re-Trade</h1>
     <p>"Byt dig til en bæredygtig fremtid"</p>
 </div>
 
 
-<p class="paragraph">Bæredygtighed er fundamentet for fremtiden. I en verden med begrænsede ressourcer er det vigtigt at
-    handle ansvarligt. Hos Re-Trade stræber vi efter at gøre netop dette og skabe en mere bæredygtig fremtid.
-</p>
+<section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px;">
+    <h2>Velkommen til Re-Trade</h2>
+    <p>Re-Trade er din mulighed for at gøre noget godt for både miljøet og din garderobe. Hver første søndag i måneden samler vi Køge Kommune til et hyggeligt og inspirerende event på Tapperiet, hvor du kan give dit gamle tøj nyt liv og finde nye favoritter til din garderobe – helt gratis.</p>
+    <p>Hos Re-Trade skaber vi rammerne for en bæredygtig livsstil. Ved at deltage i vores events hjælper du med at reducere spild, spare ressourcer og gøre en forskel for miljøet. Tag del i en grøn bevægelse, hvor tøjbytte bliver en naturlig del af hverdagen.</p
+</section>
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="billeder/carousel.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="billeder/carousel2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="billeder/carousel3.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px;">
+        <p><strong>Tøjbytte for alle:</strong> Tag tøj, sko og accessories med, og byt med andre deltagere. Du bestemmer selv, hvad du vil bytte og med hvem.</p>
+        <p><strong>Standområder med lokale butikker:</strong> Lokale butikker fra Køge sælger deres restvarer til stærkt nedsatte priser.</p>
+        <p><strong>Mad og drikke:</strong> Nyd lækker mad og drikke, som er med til at støtte vores events.</p>
+</section>
 
 
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">

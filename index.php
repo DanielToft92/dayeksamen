@@ -23,6 +23,31 @@ require "settings/init.php";
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+
+        /* Default styles (for mobile-first design) */
+        #carouselExampleAutoplaying {
+            width: 100%; /* Full width on smaller screens */
+            max-width: 100%; /* Ensure it doesn't exceed the screen width */
+        }
+
+        /* Reduce carousel size on larger screens */
+        @media (min-width: 768px) { /* Adjust breakpoint as needed */
+            #carouselExampleAutoplaying {
+                width: 80%; /* Make the carousel smaller on larger screens */
+                margin: 0 auto; /* Center the carousel */
+            }
+        }
+
+        @media (min-width: 1200px) { /* Adjust for very large screens */
+            #carouselExampleAutoplaying {
+                width: 60%; /* Further reduce size on extra-large screens */
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -39,8 +64,10 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
 
 <section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px;">
     <h2>Velkommen til Re-Trade</h2>
-    <p>Re-Trade er din mulighed for at gøre noget godt for både miljøet og din garderobe. Hver første søndag i måneden samler vi Køge Kommune til et hyggeligt og inspirerende event på Tapperiet, hvor du kan give dit gamle tøj nyt liv og finde nye favoritter til din garderobe – helt gratis.</p>
-    <p>Hos Re-Trade skaber vi rammerne for en bæredygtig livsstil. Ved at deltage i vores events hjælper du med at reducere spild, spare ressourcer og gøre en forskel for miljøet. Tag del i en grøn bevægelse, hvor tøjbytte bliver en naturlig del af hverdagen.</p
+    <p>Re-Trade er din mulighed for at gøre noget godt for både miljøet og din garderobe. </p>
+    <p>Hver første søndag i måneden samler vi Køge Kommune til et hyggeligt og inspirerende event på Tapperiet, hvor du kan give dit gamle tøj nyt liv og finde nye favoritter til din garderobe – helt gratis.</p>
+    <p>Hos Re-Trade skaber vi rammerne for en bæredygtig livsstil. Ved at deltage i vores events hjælper du med at reducere spild, spare ressourcer og gøre en forskel for miljøet.</p>
+    <p> Tag del i en grøn bevægelse, hvor tøjbytte bliver en naturlig del af hverdagen.</p>
 </section>
 
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">

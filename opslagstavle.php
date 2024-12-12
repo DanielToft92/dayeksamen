@@ -35,11 +35,13 @@ require "settings/init.php";
 
 <!-- Bulletin Board Section -->
 <section id="bulletin-board" style="text-align: center;">
-    <p>Velkommen til opslagstavlen på Re-Trade – stedet hvor du kan vise dine mest unikke items frem og skabe interesse til vores næste event. Har du en særlig genstand, som du gerne vil bytte? Måske en designerhåndtaske, en vintage jakke eller et par limited edition sneakers? Del det her, så andre kan få øje på din vare og tage noget med, de tror, du vil være interesseret i.</p>
+    <p>Velkommen til opslagstavlen på Re-Trade – stedet hvor du kan vise dine mest unikke items frem og skabe interesse til vores næste event. Har du en særlig genstand, som du gerne vil bytte?</p>
+    <p> Måske en designerhåndtaske, en vintage jakke eller et par limited edition sneakers?</p>
+    <p> Del det her, så andre kan få øje på din vare og tage noget med, de tror, du vil være interesseret i.</p>
     <p><strong>Sådan fungerer det:</strong></p>
-    <p>Upload et billede af din unikke vare.</p>
-    <p>Tilføj en beskrivelse af varen – f.eks. mærke, størrelse og stand.</p>
+    <p>Skriv dit navn.</p>
     <p>Angiv datoen, til hvilket kommende event varen kan findes til.</p>
+    <p>Tilføj en beskrivelse af varen – f.eks. mærke, størrelse og stand.</p>
 </section>
 
 

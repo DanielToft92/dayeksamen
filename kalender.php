@@ -32,7 +32,8 @@ require "settings/init.php";
 
 
 <section id="event-calendar" style="text-align: center;">
-    <p>Vil du holde dig opdateret på vores kommende tøjbytte-events? Med vores eventkalender går du aldrig glip af en mulighed for at være med. Kalenderen opdateres løbende, så du altid kan finde den næste dato og detaljer om vores arrangementer.</p>
+    <p>Vil du holde dig opdateret på vores kommende tøjbytte-events? Med vores eventkalender går du aldrig glip af en mulighed for at være med.</p>
+    <p> Kalenderen opdateres løbende, så du altid kan finde den næste dato og detaljer om vores arrangementer.</p>
     <p><strong>Hvad kan du forvente til vores events?</strong></p>
         <p>En hyggelig atmosfære med fokus på bæredygtighed.</p>
         <p>Mulighed for at bytte tøj, sko og accessories i dit eget tempo.</p>

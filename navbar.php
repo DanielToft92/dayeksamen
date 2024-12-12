@@ -8,7 +8,7 @@
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-right: 80px;">
             <div class="navbar-nav mx-auto">
                 <a class="nav-link" href="omos.php">Om os</a>
                 <a class="nav-link" href="kalender.php">Kalender</a>

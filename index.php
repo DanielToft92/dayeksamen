@@ -36,14 +36,14 @@ require "settings/init.php";
         /* Reduce carousel size on larger screens */
         @media (min-width: 768px) { /* Adjust breakpoint as needed */
             #carouselExampleAutoplaying {
-                width: 80%; /* Make the carousel smaller on larger screens */
+                width: 60%; /* Make the carousel smaller on larger screens */
                 margin: 0 auto; /* Center the carousel */
             }
         }
 
         @media (min-width: 1200px) { /* Adjust for very large screens */
             #carouselExampleAutoplaying {
-                width: 60%; /* Further reduce size on extra-large screens */
+                width: 40%; /* Further reduce size on extra-large screens */
             }
         }
     </style>
@@ -63,7 +63,6 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
 
 
 <section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px;">
-    <h2>Velkommen til Re-Trade</h2>
     <p>Re-Trade er din mulighed for at gøre noget godt for både miljøet og din garderobe. </p>
     <p>Hver første søndag i måneden samler vi Køge Kommune til et hyggeligt og inspirerende event på Tapperiet, hvor du kan give dit gamle tøj nyt liv og finde nye favoritter til din garderobe – helt gratis.</p>
     <p>Hos Re-Trade skaber vi rammerne for en bæredygtig livsstil. Ved at deltage i vores events hjælper du med at reducere spild, spare ressourcer og gøre en forskel for miljøet.</p>
@@ -73,13 +72,13 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="billeder/carousel.png" class="d-block w-100" alt="...">
+            <img src="billeder/tapperiet.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="billeder/carousel2.png" class="d-block w-100" alt="...">
+            <img src="billeder/carousel5.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="billeder/carousel3.png" class="d-block w-100" alt="...">
+            <img src="billeder/carousel4.png" class="d-block w-100" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -99,27 +98,10 @@ url('billeder/træplanker.png'); background-size: cover; background-position: ce
 </section>
 
 
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="billeder/carousel.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="billeder/carousel2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="billeder/carousel3.png" class="d-block w-100" alt="...">
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+<div style="margin-top: 15px; margin-bottom: 15px;">
+    <img src="billeder/tapperiet.png" class="d-block w-100" alt="...">
 </div>
+
 
 
 <?php include("footer.php") ?>

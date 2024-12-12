@@ -17,6 +17,124 @@
 
 </head>
 
+.card-header {
+font-size: 1.25rem;
+font-weight: bold;
+color: #ece4cf;
+text-align: center;
+background-color: #978a6f;
+border-bottom: 1px solid #978a6f;
+}
+
+/* Card Body Styling */
+.card-body {
+padding: 1.25rem;
+color: #9a8977;
+background-color: #ece4cf;
+}
+
+/* Card Footer Styling */
+.card-footer {
+background-color: #978a6f;
+color: #ece4cf;
+font-size: 0.875rem;
+text-align: center;
+border-top: 1px solid #978a6f;
+}
+
+/* Opslagstavle */
+
+/* Board styling */
+#board {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 15px;
+padding: 20px;
+background-color: #1a1a1a; /* Dark, asphalt-like background */
+border: none;
+min-height: 500px;
+box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Add Note Button */
+#addNote {
+background: linear-gradient(135deg, #876955, #ece4cf); /* Vibrant gradient */
+color: #fff;
+font-family: 'Urbanist', sans-serif;
+font-size: 1rem;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-transform: uppercase;
+letter-spacing: 1px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#addNote:hover {
+background: linear-gradient(135deg, #ece4cf, #876955); /* Invert gradient */
+transform: scale(1.05);
+}
+
+/* Note styling */
+.note {
+background: #9a8977; /* Dark, concrete-like background */
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+color: #fff;
+font-family: 'Urbanist', sans-serif;
+}
+
+/* Input and Textarea */
+.note input,
+.note textarea {
+width: 100%;
+margin-bottom: 10px;
+padding: 8px;
+background-color: #1a1a1a;
+color: #fff;
+border: 1px solid #555;
+border-radius: 5px;
+font-family: 'Urbanist', sans-serif;
+}
+
+.note input[disabled],
+.note textarea[disabled] {
+background-color: #333;
+color: #888;
+border: 1px solid #444;
+}
+
+/* Buttons */
+.note button {
+padding: 8px 12px;
+border: none;
+border-radius: 5px;
+font-family: 'Urbanist', sans-serif;
+font-size: 0.9rem;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+}
+
+.note button.saveNote {
+background-color: #00b894; /* Vibrant green */
+color: #fff;
+}
+
+.note button.saveNote:hover {
+background-color: #009874;
+}
+
+.note button.deleteNote {
+background-color: #d63031; /* Vivid red */
+color: #fff;
+}
+
+.note button.deleteNote:hover {
+background-color: #b22022;
+}
+
 
 /* Hent data fra databasen */
 

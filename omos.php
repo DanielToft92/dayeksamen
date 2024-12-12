@@ -38,7 +38,7 @@ require "settings/init.php";
 <div class="container text-center custom-margin">
     <div class="row row-cols-2">
         <div class="col mt-4">
-            <img src="billeder/omos/sustain.jpg" alt="Description of image 1" class="img-fluid">
+            <img src="billeder/omos/logo3.png" alt="Description of image 1" class="img-fluid">
         </div>
         <div class="col mt-4">
             <p>Re-Trade er en bæredygtig bevægelse skabt for at mindske forbruget og styrke fællesskabet i Køge Kommune.
@@ -51,10 +51,10 @@ require "settings/init.php";
                 hvor lokale butikker kan sælge deres restvarer til fordelagtige priser, så intet går til spilde.</p>
         </div>
         <div class="col mt-3">
-            <img src="billeder/omos/sustain2.jpg" alt="Description of image 4" class="img-fluid">
+            <img src="billeder/omos/IMG_7510 1.png" alt="Description of image 4" class="img-fluid">
         </div>
         <div class="col mt-5">
-            <img src="billeder/omos/sustain3.jpg" alt="Description of image 1" class="img-fluid">
+            <img src="billeder/omos/vision.png" alt="Description of image 1" class="img-fluid">
         </div>
         <div class="col mt-5" style="text-align: center;">
             <p><strong>Vores vision:</strong></p>

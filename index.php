@@ -56,13 +56,14 @@ require "settings/init.php";
 
 
 <div class="banner text-center text-white py-5" style="background-image:
-url('billeder/træplanker.png'); background-size: cover; background-position: center; height: 300px;">
-    <h1>Velkommen til Re-Trade</h1>
+url('billeder/cloth4.jpg'); background-size: cover; background-position: center; height: 300px;">
+    <h1>Velkommen til</h1>
+    <h1>Re-Trade</h1>
     <p>"Byt dig til en bæredygtig fremtid"</p>
 </div>
 
 
-<section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px;">
+<section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px; padding-top: 20px;">
     <p>Re-Trade er din mulighed for at gøre noget godt for både miljøet og din garderobe. </p>
     <p>Hver første søndag i måneden samler vi Køge Kommune til et hyggeligt og inspirerende event på Tapperiet, hvor du kan give dit gamle tøj nyt liv og finde nye favoritter til din garderobe – helt gratis.</p>
     <p>Hos Re-Trade skaber vi rammerne for en bæredygtig livsstil. Ved at deltage i vores events hjælper du med at reducere spild, spare ressourcer og gøre en forskel for miljøet.</p>

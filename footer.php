@@ -1,7 +1,7 @@
 
 
 <footer class="footer mt-auto py-3"
-        style="background-image: url('billeder/footerbaggrund2.png'); background-size: cover; background-position: center; color: #000000;">
+        style="background-image: url('billeder/cloth5.jpg'); background-size: cover; background-position: center; color: #000000;">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-4 mb-3">

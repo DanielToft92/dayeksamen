@@ -38,7 +38,7 @@ require "settings/init.php";
 <div class="container text-center custom-margin">
     <div class="row row-cols-2">
         <div class="col mt-4">
-            <img src="billeder/omos/logo3.png" alt="Description of image 1" class="img-fluid">
+            <img src="billeder/rtlogo.png" alt="Description of image 1" class="img-fluid" style="height: 100px">
         </div>
         <div class="col mt-4">
             <p>Re-Trade er en bæredygtig bevægelse skabt for at mindske forbruget og styrke fællesskabet i Køge Kommune.
@@ -54,13 +54,14 @@ require "settings/init.php";
             <img src="billeder/omos/IMG_7510 1.png" alt="Description of image 4" class="img-fluid">
         </div>
         <div class="col mt-5">
-            <img src="billeder/omos/vision.png" alt="Description of image 1" class="img-fluid">
+            <img src="billeder/omos2.png" alt="Description of image 1" class="img-fluid">
         </div>
         <div class="col mt-5" style="text-align: center;">
             <p><strong>Vores vision:</strong></p>
-                <p>At skabe en bæredygtig og social platform for tøjbytte.</p>
-                <p>At reducere overforbruget ved at genbruge og genopdage.</p>
-                <p>At styrke det lokale fællesskab gennem samarbejde og engagement.</p>
+                <p>"Vi skaber en bæredygtig og social platform for tøjbytte, hvor folk kan dele, genbruge og genopdage deres garderobe.
+                    Vores mission er at reducere overforbrug og fremme en mere ansvarlig tilgang til mode ved at give gamle klæder nyt liv.
+                    Samtidig styrker vi det lokale fællesskab gennem samarbejde, engagement og inspirerende events,
+                    der bringer mennesker sammen om en fælles passion for bæredygtighed."</p>
             <p>Når du deltager i Re-Trade, er du med til at gøre en forskel – både for miljøet og for lokalsamfundet.</p>
         </div>
     </div>

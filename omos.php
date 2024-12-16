@@ -38,7 +38,7 @@ require "settings/init.php";
 <div class="container text-center custom-margin">
     <div class="row row-cols-2">
         <div class="col mt-4">
-            <img src="billeder/omos/logo3.png" alt="Description of image 1" class="img-fluid">
+            <img src="billeder/rtlogo.png" alt="Description of image 1" class="img-fluid" style="height: 100px">
         </div>
         <div class="col mt-4">
             <p>Re-Trade er en bæredygtig bevægelse skabt for at mindske forbruget og styrke fællesskabet i Køge Kommune.

@@ -11,7 +11,7 @@
                 <p style="color: inherit;">Adresse: Søndre Badevej 1, 4600 Køge</p>
             </div>
             <div class="col-md-4 mb-3">
-                <h5 style="color: inherit;">Følg Os</h5>
+                <h5 style="color: inherit;">Følg Os På</h5>
                 <a href="#" style="color: inherit; text-decoration: none; margin: 0 10px;">
                     <i class="fab fa-facebook"></i> Facebook
                 </a>

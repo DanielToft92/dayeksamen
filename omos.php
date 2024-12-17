@@ -6,7 +6,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>Os os</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -34,38 +34,75 @@ require "settings/init.php";
 <h1>Om os</h1>
 </div>
 
+<section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px; padding-top: 20px;">
+    <p>Re-Trade er din mulighed for at gøre noget godt for både miljøet og din garderobe. Vi tror på, at små ændringer kan gøre en stor forskel,
+        og derfor tilbyder vi et alternativ til den traditionelle forbrugskultur.
+        Hver første søndag i måneden samler vi Køge Kommune til et hyggeligt og inspirerende event på Tapperiet,
+        hvor du kan give dit gamle tøj nyt liv og finde nye favoritter til din garderobe – helt gratis. Det er en fantastisk
+        måde at forny din garderobe på, samtidig med at du bidrager til en bæredygtig fremtid.
+        Hos Re-Trade skaber vi rammerne for en bæredygtig livsstil, hvor vi fremmer genbrug og tøjbytte som en naturlig del af hverdagen.
+        Ved at deltage i vores events hjælper du med at reducere spild, spare ressourcer og gøre en konkret forskel for miljøet.
+        Det handler ikke kun om at bytte tøj, men om at være en del af en bevægelse, der sigter mod at ændre vores forhold til forbrug og ressourceudnyttelse.
+        Re-Trade er mere end bare et tøjbytte-event – det er et fællesskab, hvor mennesker mødes, udveksler ideer og hjælper
+        hinanden med at træffe bæredygtige valg. Vi ønsker at skabe en kultur, hvor vi værdsætter det, vi har, og
+        tænker mere på langvarig anvendelse frem for hurtig forbrug.
+        Tag del i en grøn bevægelse, hvor tøjbytte bliver en naturlig del af hverdagen, og vær med til at skabe et positivt
+        aftryk på både miljøet og dit eget liv.</p>
+</section>
 
-<div class="container text-center custom-margin">
-    <div class="row row-cols-2">
-        <div class="col mt-4">
-            <img src="billeder/rtlogo.png" alt="Description of image 1" class="img-fluid" style="height: 100px">
+<div style="margin-top: 15px; margin-bottom: 15px; text-align: center;">
+    <img src="billeder/tapperiet.png" class="d-block mx-auto img-fluid" alt="Tapperiet">
+</div>
+
+
+<div class="container-fluid" style="padding: 20px;">
+    <div class="row">
+        <!-- Tekst til venstre -->
+        <div class="col-12 col-md-4" style="padding: 15px;">
+            <h2>Samarbejde med Tapperiet i Køge</h2>
+            <p>Vi er stolte af at samarbejde med Tapperiet i Køge, et kulturelt og kreativt samlingspunkt,
+                der spiller en vigtig rolle i lokalsamfundet. Tapperiet er kendt for at huse en bred vifte af events og aktiviteter,
+                der engagerer både unge og voksne, og vi er glade for at være en del af deres inspirerende miljø.
+                Som en kreativ hub for både lokale og besøgende har Tapperiet etableret sig som et sted, hvor kunst,
+                kultur og fællesskab mødes. Med et væld af arrangementer, fra musik og teater til workshops og udstillinger,
+                er Tapperiet en vigtig platform for at skabe dialog og sammenhold i Køge Kommune.
+                Deres rummelige og indbydende atmosfære gør det muligt for folk at samles, udveksle ideer og finde inspiration –
+                og det er netop denne ånd af fællesskab og bæredygtighed, vi værdsætter i vores samarbejde.</p>
+            <p></p>
+            <p>Det er en fornøjelse for os at samarbejde med Tapperiet i Køge, som er et levende kulturhus og samlingssted
+                for kreativitet og fællesskab. Tapperiet har i mange år været en vigtig del af Køges kulturliv og danner de
+                perfekte rammer for vores bæredygtige tøjbytte-events.</p>
+            <p></p>
+            Klik på linket for at udforske deres mange spændende aktiviteter og oplevelser: <a href="https://www.tapperiet.nu" style="color: black; text-decoration: none;">www.tapperiet.nu</a>.
+
+
         </div>
-        <div class="col mt-4">
-            <p>Re-Trade er en bæredygtig bevægelse skabt for at mindske forbruget og styrke fællesskabet i Køge Kommune.
-                Vi tror på, at små skridt kan føre til store forandringer,
-                og vores tøjbytte-events er en nem og sjov måde at tage ansvar for miljøet på.</p>
+
+        <!-- Billede i midten -->
+        <div class="col-12 col-md-4 text-center" style="padding: 15px;">
+            <img src="billeder/tapperietlink.png" alt="Billede" style="width: 100%; max-width: 400px; height: auto;">
         </div>
-        <div class="col mt-3">
-            <p>Vores månedlige events på Tapperiet er meget mere end bare tøjbytte. De er en anledning til at møde nye mennesker,
-                dele gode historier og opdage skjulte skatte blandt andres glemte tøj. Derudover har vi skabt en platform,
-                hvor lokale butikker kan sælge deres restvarer til fordelagtige priser, så intet går til spilde.</p>
-        </div>
-        <div class="col mt-3">
-            <img src="billeder/omos/IMG_7510 1.png" alt="Description of image 4" class="img-fluid">
-        </div>
-        <div class="col mt-5">
-            <img src="billeder/omos2.png" alt="Description of image 1" class="img-fluid">
-        </div>
-        <div class="col mt-5" style="text-align: center;">
-            <p><strong>Vores vision:</strong></p>
-                <p>"Vi skaber en bæredygtig og social platform for tøjbytte, hvor folk kan dele, genbruge og genopdage deres garderobe.
-                    Vores mission er at reducere overforbrug og fremme en mere ansvarlig tilgang til mode ved at give gamle klæder nyt liv.
-                    Samtidig styrker vi det lokale fællesskab gennem samarbejde, engagement og inspirerende events,
-                    der bringer mennesker sammen om en fælles passion for bæredygtighed."</p>
-            <p>Når du deltager i Re-Trade, er du med til at gøre en forskel – både for miljøet og for lokalsamfundet.</p>
+
+        <!-- Tekst til højre -->
+        <div class="col-12 col-md-4" style="padding: 15px;">
+            <h2>Tapperiets Historie og Rolle i Køge</h2>
+            <p>Tapperiet i Køge har en spændende og historisk baggrund, der går hånd i hånd med byens udvikling som et kulturelt centrum.
+                Oprindeligt opført som en gammel tapperi-bygning, har stedet gennemgået en bemærkelsesværdig transformation fra
+                en industriel arbejdsplads til et pulserende kulturhus. Tapperiet har bevaret sin unikke charme og historiske betydning,
+                samtidig med at det har udviklet sig til et moderne samlingspunkt for kreative aktiviteter og lokale initiativer.
+                I mange år har Tapperiet været en vigtig del af Køges identitet, og det har spillet en central rolle i at fremme kunst,
+                kultur og fællesskab i kommunen. Med en bred vifte af events – fra koncerter og teaterforestillinger til
+                kunstudstillinger og kreative workshops – har Tapperiet skabt en åben og inkluderende platform for både
+                kunstnere og besøgende. Det er et sted, hvor idéer mødes, og hvor lokalbefolkningen kan finde inspiration og
+                blive en del af et levende, kreativt fællesskab.
+                Tapperiets historie er et glimrende eksempel på, hvordan gamle bygninger kan få nyt liv og finde relevans i det moderne samfund.
+                Den varme og indbydende atmosfære gør det til et ideelt sted for Re-Trade at afholde vores bæredygtigheds-
+                og tøjbytteevents, hvor vi sammen kan skabe et stærkt fællesskab og arbejde for en mere bæredygtig fremtid.</p>
         </div>
     </div>
 </div>
+
+
 
 
 <div class="container">

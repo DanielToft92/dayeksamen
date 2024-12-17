@@ -6,7 +6,7 @@ require "settings/init.php";
 <head>
 	<meta charset="utf-8">
 	
-	<title>Sigende titel</title>
+	<title>Forside</title>
 	
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
@@ -64,11 +64,12 @@ url('billeder/cloth4.jpg'); background-size: cover; background-position: center;
 
 
 <section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px; padding-top: 20px;">
-    <p>Re-Trade er din mulighed for at gøre noget godt for både miljøet og din garderobe. </p>
-    <p>Hver første søndag i måneden samler vi Køge Kommune til et hyggeligt og inspirerende event på Tapperiet, hvor du kan give dit gamle tøj nyt liv og finde nye favoritter til din garderobe – helt gratis.</p>
-    <p>Hos Re-Trade skaber vi rammerne for en bæredygtig livsstil. Ved at deltage i vores events hjælper du med at reducere spild, spare ressourcer og gøre en forskel for miljøet.</p>
-    <p> Tag del i en grøn bevægelse, hvor tøjbytte bliver en naturlig del af hverdagen.</p>
+    <h2>Gør noget godt for miljøet – og din garderobe!</h2>
+    <p>Re-Trade inviterer dig til bæredygtige tøjbytte-events på Tapperiet i Køge. Hver første søndag i måneden kan du bytte tøj,
+        sko og accessories, du ikke længere bruger, og finde nye favoritter – helt gratis. Sammen skaber vi et grønnere
+        fællesskab og giver tøjet nyt liv.</p>
 </section>
+
 
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
     <div class="carousel-inner">
@@ -99,11 +100,31 @@ url('billeder/cloth4.jpg'); background-size: cover; background-position: center;
 </section>
 
 
-<div style="margin-top: 15px; margin-bottom: 15px;">
-    <img src="billeder/tapperiet.png" class="d-block w-100" alt="...">
+<div style="margin-top: 15px; margin-bottom: 15px; text-align: center;">
+    <img src="billeder/tapperiet.png" class="d-block mx-auto img-fluid" alt="Tapperiet">
 </div>
 
 
+<div class="container text-center custom-margin">
+    <div class="row row-cols-2">
+        <div class="col mt-4">
+            <img src="billeder/rtlogo.png" alt="Description of image 1" class="img-fluid" style="height: 100px">
+        </div>
+        <div class="col mt-4">
+            <p>Re-Trade er en bæredygtig bevægelse skabt for at mindske forbruget og styrke fællesskabet i Køge Kommune.
+                Vi tror på, at små skridt kan føre til store forandringer,
+                og vores tøjbytte-events er en nem og sjov måde at tage ansvar for miljøet på.</p>
+        </div>
+        <div class="col mt-3">
+            <p>Vores månedlige events på Tapperiet er meget mere end bare tøjbytte. De er en anledning til at møde nye mennesker,
+                dele gode historier og opdage skjulte skatte blandt andres glemte tøj. Derudover har vi skabt en platform,
+                hvor lokale butikker kan sælge deres restvarer til fordelagtige priser, så intet går til spilde.</p>
+        </div>
+        <div class="col mt-3" style="margin-bottom: 20px;">
+            <img src="billeder/recycle.png" alt="Description of image 4" class="img-fluid">
+        </div>
+    </div>
+</div>
 
 <?php include("footer.php") ?>
 

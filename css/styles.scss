@@ -23,18 +23,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 /* Hjemmeside Baggrund */
 
 body {
-	background-color: #9a8977; /* Set the background color */
-	color: #fff;              /* Optional: Set text color for contrast */
-	margin: 0;                /* Remove default body margin */
-	padding: 0;               /* Remove default body padding */
+	background-color: #9a8977;
+	color: #fff;
+	margin: 0;
+	padding: 0;
 }
-
-
-/* Navbar */
-
-
-
-/* Omos Items */
 
 
 /* H1 */
@@ -48,22 +41,57 @@ body {
 }
 
 div.h1omos h1 {
-	font-size: 3em; /* Adjust the size as needed */
+	font-size: 3em;
 	color: #000000;
+}
+
+/* Banner */
+
+.banner {
+	color: white;
+	font-family: Playfair Display;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.banner h1 {
+	font-size: 4rem;
+}
+
+.banner p {
+	font-size: 2rem;
+}
+
+
+@media (max-width: 430px) {
+	.banner h1 {
+		font-size: 3rem;
+	}
+
+	.banner p {
+		font-size: 1.5rem;
+	}
+
+	.banner {
+		height: 250px;
+	}
 }
 
 
 /* Kalender Cards */
 
 .card {
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
-	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;  /* Smooth hover effect */
-	background-color: #f9f9f9;  /* Light background color */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	background-color: #f9f9f9;
 	margin-left: 20px;
 	margin-right: 20px;
 }
-
-
 
 /* Card Header Styling */
 
@@ -93,122 +121,8 @@ div.h1omos h1 {
 }
 
 .row > .col-12:last-of-type .card {
-	margin-bottom: 20px; /* Adds space only to the last card */
+	margin-bottom: 20px;
 }
-
-/* Index Carousel */
-
-/* Footer */
-
-body {
-	margin: 0;
-	min-height: 100vh; /* Ensure the body is at least the full viewport height */
-	display: flex;
-	flex-direction: column; /* Allow the footer to push to the bottom */
-}
-
-.main-content {
-	flex: 1; /* Allow main content to take up remaining space */
-}
-
-.footer {
-	background-color: #6B8E23;
-	color: #fff;
-	padding: 15px 0;
-	width: 100%;
-	text-align: center;
-}
-
-.footer h5 {
-	font-family: 'Playfair Display', serif;
-	font-size: 1.25rem;
-	margin-bottom: 10px;
-}
-
-.footer p, .footer a {
-	font-size: 0.9rem;
-	margin: 5px 0;
-	color: #fff;
-	text-decoration: none;
-}
-
-.footer a:hover {
-	color: #00b894;
-}
-
-@media (max-width: 768px) {
-	.footer {
-		font-size: 0.8rem;
-		height: auto;
-	}
-
-	.footer .row div {
-		margin-bottom: 10px;
-	}
-}
-
-
-
-
-
-/* Banner */
-
-.banner {
-	color: white; /* Ensures text is visible */
-	font-family: Playfair Display;
-	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow to the text for contrast */
-	height: 300px; /* Adjust the height as needed */
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center; /* Ensures text is centered horizontally */
-}
-
-.banner h1 {
-	font-size: 4rem; /* Adjust the size as needed */
-}
-
-.banner p {
-	font-size: 2rem; /* Adjust the size as needed */
-}
-
-/* Media query for iPhone 16 Pro Max and smaller screens */
-@media (max-width: 430px) {
-	.banner h1 {
-		font-size: 3rem; /* Smaller font size for smaller screens */
-	}
-
-	.banner p {
-		font-size: 1.5rem; /* Smaller font size for smaller screens */
-	}
-
-	.banner {
-		height: 250px; /* Adjust the height for smaller screens */
-	}
-}
-
-/* Index paragraph */
-
-.paragraph {
-	text-align: center;
-	padding-top: 20px;
-	padding-left: 10px; /* Adds some padding for small screens */
-	padding-right: 10px; /* Adds some padding for small screens */
-	word-wrap: break-word; /* Ensures text doesn't overflow */
-	max-width: 90%; /* Prevents the paragraph from exceeding the viewport */
-	margin: 0 auto; /* Centers the paragraph */
-	font-size: 16px; /* Ensures readable text on small screens */
-	line-height: 1.5; /* Improves readability */
-}
-
-@media (max-width: 600px) {
-	.paragraph {
-		font-size: 14px; /* Adjusts font size for very small screens */
-	}
-}
-
-
 
 /* Opslagstavle */
 
@@ -218,7 +132,7 @@ body {
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 	gap: 15px;
 	padding: 20px;
-	background-color: #1a1a1a; /* Dark, asphalt-like background */
+	background-color: #1a1a1a;
 	border: none;
 	min-height: 500px;
 	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
@@ -226,7 +140,7 @@ body {
 
 /* Add Note Button */
 #addNote {
-	background: linear-gradient(135deg, #876955, #ece4cf); /* Vibrant gradient */
+	background: linear-gradient(135deg, #876955, #ece4cf);
 	color: #fff;
 	font-family: 'Urbanist', sans-serif;
 	font-size: 1rem;
@@ -240,13 +154,13 @@ body {
 }
 
 #addNote:hover {
-	background: linear-gradient(135deg, #ece4cf, #876955); /* Invert gradient */
+	background: linear-gradient(135deg, #ece4cf, #876955);
 	transform: scale(1.05);
 }
 
 /* Note styling */
 .note {
-	background: #9a8977; /* Dark, concrete-like background */
+	background: #9a8977;
 	padding: 15px;
 	border-radius: 8px;
 	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
@@ -286,7 +200,7 @@ body {
 }
 
 .note button.saveNote {
-	background-color: #00b894; /* Vibrant green */
+	background-color: #00b894;
 	color: #fff;
 }
 
@@ -295,7 +209,7 @@ body {
 }
 
 .note button.deleteNote {
-	background-color: #d63031; /* Vivid red */
+	background-color: #d63031;
 	color: #fff;
 }
 
@@ -304,7 +218,52 @@ body {
 }
 
 
-/* Kort */
+/* Footer */
 
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
 
+.main-content {
+	flex: 1;
+}
+
+.footer {
+	background-color: #6B8E23;
+	color: #fff;
+	padding: 15px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer h5 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.25rem;
+	margin-bottom: 10px;
+}
+
+.footer p, .footer a {
+	font-size: 0.9rem;
+	margin: 5px 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #00b894;
+}
+
+@media (max-width: 768px) {
+	.footer {
+		font-size: 0.8rem;
+		height: auto;
+	}
+
+	.footer .row div {
+		margin-bottom: 10px;
+	}
+}
 

@@ -73,7 +73,7 @@ url('billeder/cloth4.jpg'); background-size: cover; background-position: center;
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="billeder/tapperiet.png" class="d-block w-100" alt="...">
+            <img src="billeder/carousellogo2.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
             <img src="billeder/carousel5.png" class="d-block w-100" alt="...">

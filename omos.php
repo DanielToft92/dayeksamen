@@ -30,10 +30,11 @@ require "settings/init.php";
 <?php include("navbar.php") ?>
 
 
-<div class="h1omos">
+<header class="h1omos">
 <h1>Om os</h1>
-</div>
+</header>
 
+<main>
 <section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px; padding-top: 20px;">
     <p>Re-Trade er din mulighed for at gøre noget godt for både miljøet og din garderobe. Vi tror på, at små ændringer kan gøre en stor forskel,
         og derfor tilbyder vi et alternativ til den traditionelle forbrugskultur.
@@ -120,7 +121,7 @@ require "settings/init.php";
         </div>
     </div>
 </div>
-
+</main>
 
 
 

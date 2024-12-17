@@ -27,23 +27,22 @@ require "settings/init.php";
     <style>
 
 
-        /* Default styles (for mobile-first design) */
+
         #carouselExampleAutoplaying {
-            width: 100%; /* Full width on smaller screens */
-            max-width: 100%; /* Ensure it doesn't exceed the screen width */
+            width: 100%;
+            max-width: 100%;
         }
 
-        /* Reduce carousel size on larger screens */
-        @media (min-width: 768px) { /* Adjust breakpoint as needed */
+        @media (min-width: 768px) {
             #carouselExampleAutoplaying {
-                width: 60%; /* Make the carousel smaller on larger screens */
-                margin: 0 auto; /* Center the carousel */
+                width: 60%;
+                margin: 0 auto;
             }
         }
 
-        @media (min-width: 1200px) { /* Adjust for very large screens */
+        @media (min-width: 1200px) {
             #carouselExampleAutoplaying {
-                width: 40%; /* Further reduce size on extra-large screens */
+                width: 40%;
             }
         }
     </style>
@@ -55,14 +54,14 @@ require "settings/init.php";
 <?php include("navbar.php") ?>
 
 
-<div class="banner text-center text-white py-5" style="background-image:
+<header class="banner text-center text-white py-5" style="background-image:
 url('billeder/cloth4.jpg'); background-size: cover; background-position: center; height: 300px;">
     <h1>Velkommen til</h1>
     <h1>Re-Trade</h1>
     <p>"Byt dig til en bæredygtig fremtid"</p>
-</div>
+</header>
 
-
+<main>
 <section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px; padding-top: 20px;">
     <h2>Gør noget godt for miljøet – og din garderobe!</h2>
     <p>Re-Trade inviterer dig til bæredygtige tøjbytte-events på Tapperiet i Køge. Hver første søndag i måneden kan du bytte tøj,
@@ -125,6 +124,7 @@ url('billeder/cloth4.jpg'); background-size: cover; background-position: center;
         </div>
     </div>
 </div>
+</main>
 
 <?php include("footer.php") ?>
 

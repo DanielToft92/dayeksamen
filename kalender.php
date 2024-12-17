@@ -4,33 +4,36 @@ require "settings/init.php";
 <!DOCTYPE html>
 <html lang="da">
 <head>
-    <head>
-        <meta charset="utf-8">
+    <meta charset="utf-8">
 
-        <title>Event Kalender</title>
+    <title>Opslagstavle</title>
 
-        <meta name="robots" content="All">
-        <meta name="author" content="Udgiver">
-        <meta name="copyright" content="Information om copyright">
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
 
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Re-Trade er din bæredygtige platform til tøjbytte. Deltag i vores events i Køge og gør en forskel for miljøet!">
+    <meta name="keywords" content="Re-Trade, tøjbytte, bæredygtighed, Køge, genbrug, events">
+    <meta name="author" content="Re-Trade">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
 <?php include("navbar.php") ?>
 
-<div class="h1omos">
+<header class="h1omos">
     <h1>Event Kalender</h1>
-</div>
+</header>
 
-
+<main>
 <section id="event-calendar" style="text-align: center;">
     <p>Vil du holde dig opdateret på vores kommende tøjbytte-events? Med vores eventkalender går du aldrig glip af en mulighed for at være med.</p>
     <p> Kalenderen opdateres løbende, så du altid kan finde den næste dato og detaljer om vores arrangementer.</p>
@@ -66,7 +69,7 @@ require "settings/init.php";
         ?>
     </div>
 </div>
-
+</main>
 
 
 <?php include("footer.php") ?>

@@ -55,7 +55,7 @@ require "settings/init.php";
     <?php include("navbar.php"); ?>
     <div class="banner text-center text-white py-5" style="background-image: url('billeder/cloth4.jpg'); background-size: cover; background-position: center; height: 300px;">
         <h1>Velkommen til</h1>
-        <h1>Re-Trade</h1>
+        <h1>Re-trade</h1>
         <p>"Byt dig til en bæredygtig fremtid"</p>
     </div>
 </header>
@@ -63,7 +63,8 @@ require "settings/init.php";
 <main>
     <section id="landing-page" class="text-center py-4">
         <h2>Gør noget godt for miljøet – og din garderobe!</h2>
-        <p>Re-Trade inviterer dig til bæredygtige tøjbytte-events på Tapperiet i Køge. Hver første søndag i måneden kan du bytte tøj, sko og accessories, du ikke længere bruger, og finde nye favoritter – helt gratis. Sammen skaber vi et grønnere fællesskab og giver tøjet nyt liv.</p>
+        <p>Re-Trade inviterer dig til bæredygtige tøjbytte-events på Tapperiet i Køge. Hver første søndag i måneden kan du bytte tøj,
+            sko og accessories, du ikke længere bruger, og finde nye favoritter – helt gratis. Sammen skaber vi et grønnere fællesskab og giver tøjet nyt liv.</p>
     </section>
 
     <section id="carousel-section" class="carousel-container">
@@ -106,10 +107,12 @@ require "settings/init.php";
                 <img src="billeder/rtlogo.png" alt="Re-Trade logo" class="img-fluid" style="height: 100px">
             </div>
             <div class="col mt-4">
-                <p>Re-Trade er en bæredygtig bevægelse skabt for at mindske forbruget og styrke fællesskabet i Køge Kommune. Vi tror på, at små skridt kan føre til store forandringer, og vores tøjbytte-events er en nem og sjov måde at tage ansvar for miljøet på.</p>
+                <p>Re-Trade er en bæredygtig bevægelse skabt for at mindske forbruget og styrke fællesskabet i Køge Kommune.
+                    Vi tror på, at små skridt kan føre til store forandringer, og vores tøjbytte-events er en nem og sjov måde at tage ansvar for miljøet på.</p>
             </div>
             <div class="col mt-3">
-                <p>Vores månedlige events på Tapperiet er meget mere end bare tøjbytte. De er en anledning til at møde nye mennesker, dele gode historier og opdage skjulte skatte blandt andres glemte tøj. Derudover har vi skabt en platform, hvor lokale butikker kan sælge deres restvarer til fordelagtige priser, så intet går til spilde.</p>
+                <p>Vores månedlige events på Tapperiet er meget mere end bare tøjbytte. De er en anledning til at møde nye mennesker,
+                    dele gode historier og opdage skjulte skatte blandt andres glemte tøj. Derudover har vi skabt en platform, hvor lokale butikker kan sælge deres restvarer til fordelagtige priser, så intet går til spilde.</p>
             </div>
             <div class="col mt-3" style="margin-bottom: 20px;">
                 <img src="billeder/recycle.png" alt="Recycle logo" class="img-fluid">

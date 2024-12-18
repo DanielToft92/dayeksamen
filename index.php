@@ -51,85 +51,76 @@ require "settings/init.php";
 
 <body>
 
-<?php include("navbar.php") ?>
-
-
-<header class="banner text-center text-white py-5" style="background-image:
-url('billeder/cloth4.jpg'); background-size: cover; background-position: center; height: 300px;">
-    <h1>Velkommen til</h1>
-    <h1>Re-Trade</h1>
-    <p>"Byt dig til en bæredygtig fremtid"</p>
+<header>
+    <?php include("navbar.php"); ?>
+    <div class="banner text-center text-white py-5" style="background-image: url('billeder/cloth4.jpg'); background-size: cover; background-position: center; height: 300px;">
+        <h1>Velkommen til</h1>
+        <h1>Re-Trade</h1>
+        <p>"Byt dig til en bæredygtig fremtid"</p>
+    </div>
 </header>
 
 <main>
-<section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px; padding-top: 20px;">
-    <h2>Gør noget godt for miljøet – og din garderobe!</h2>
-    <p>Re-Trade inviterer dig til bæredygtige tøjbytte-events på Tapperiet i Køge. Hver første søndag i måneden kan du bytte tøj,
-        sko og accessories, du ikke længere bruger, og finde nye favoritter – helt gratis. Sammen skaber vi et grønnere
-        fællesskab og giver tøjet nyt liv.</p>
-</section>
+    <section id="landing-page" class="text-center py-4">
+        <h2>Gør noget godt for miljøet – og din garderobe!</h2>
+        <p>Re-Trade inviterer dig til bæredygtige tøjbytte-events på Tapperiet i Køge. Hver første søndag i måneden kan du bytte tøj, sko og accessories, du ikke længere bruger, og finde nye favoritter – helt gratis. Sammen skaber vi et grønnere fællesskab og giver tøjet nyt liv.</p>
+    </section>
 
+    <section id="carousel-section" class="carousel-container">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="billeder/carousellogo2.png" class="d-block w-100" alt="Re-Trade logo">
+                </div>
+                <div class="carousel-item">
+                    <img src="billeder/carousel5.png" class="d-block w-100" alt="Event image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="billeder/carousel4.png" class="d-block w-100" alt="Event image 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="margin-top: 15px; margin-bottom: 15px;">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="billeder/carousellogo2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="billeder/carousel5.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="billeder/carousel4.png" class="d-block w-100" alt="...">
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-
-<section id="landing-page" style="text-align: center; margin-left: 10px; margin-right: 10px;">
+    <section id="features" class="text-center">
         <p><strong>Tøjbytte for alle:</strong> Tag tøj, sko og accessories med, og byt med andre deltagere. Du bestemmer selv, hvad du vil bytte og med hvem.</p>
         <p><strong>Standområder med lokale butikker:</strong> Lokale butikker fra Køge sælger deres restvarer til stærkt nedsatte priser.</p>
         <p><strong>Mad og drikke:</strong> Nyd lækker mad og drikke, som er med til at støtte vores events.</p>
-</section>
+    </section>
 
+    <section id="venue-image" style="margin-top: 15px; margin-bottom: 15px; text-align: center;">
+        <img src="billeder/tapperiet.png" class="d-block mx-auto img-fluid" alt="Tapperiet">
+    </section>
 
-<div style="margin-top: 15px; margin-bottom: 15px; text-align: center;">
-    <img src="billeder/tapperiet.png" class="d-block mx-auto img-fluid" alt="Tapperiet">
-</div>
-
-
-<div class="container text-center custom-margin">
-    <div class="row row-cols-2">
-        <div class="col mt-4">
-            <img src="billeder/rtlogo.png" alt="Description of image 1" class="img-fluid" style="height: 100px">
+    <section id="about" class="container text-center custom-margin">
+        <div class="row row-cols-2">
+            <div class="col mt-4">
+                <img src="billeder/rtlogo.png" alt="Re-Trade logo" class="img-fluid" style="height: 100px">
+            </div>
+            <div class="col mt-4">
+                <p>Re-Trade er en bæredygtig bevægelse skabt for at mindske forbruget og styrke fællesskabet i Køge Kommune. Vi tror på, at små skridt kan føre til store forandringer, og vores tøjbytte-events er en nem og sjov måde at tage ansvar for miljøet på.</p>
+            </div>
+            <div class="col mt-3">
+                <p>Vores månedlige events på Tapperiet er meget mere end bare tøjbytte. De er en anledning til at møde nye mennesker, dele gode historier og opdage skjulte skatte blandt andres glemte tøj. Derudover har vi skabt en platform, hvor lokale butikker kan sælge deres restvarer til fordelagtige priser, så intet går til spilde.</p>
+            </div>
+            <div class="col mt-3" style="margin-bottom: 20px;">
+                <img src="billeder/recycle.png" alt="Recycle logo" class="img-fluid">
+            </div>
         </div>
-        <div class="col mt-4">
-            <p>Re-Trade er en bæredygtig bevægelse skabt for at mindske forbruget og styrke fællesskabet i Køge Kommune.
-                Vi tror på, at små skridt kan føre til store forandringer,
-                og vores tøjbytte-events er en nem og sjov måde at tage ansvar for miljøet på.</p>
-        </div>
-        <div class="col mt-3">
-            <p>Vores månedlige events på Tapperiet er meget mere end bare tøjbytte. De er en anledning til at møde nye mennesker,
-                dele gode historier og opdage skjulte skatte blandt andres glemte tøj. Derudover har vi skabt en platform,
-                hvor lokale butikker kan sælge deres restvarer til fordelagtige priser, så intet går til spilde.</p>
-        </div>
-        <div class="col mt-3" style="margin-bottom: 20px;">
-            <img src="billeder/recycle.png" alt="Description of image 4" class="img-fluid">
-        </div>
-    </div>
-</div>
+    </section>
 </main>
 
-<?php include("footer.php") ?>
-
-
-
+<footer>
+    <?php include("footer.php"); ?>
+</footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

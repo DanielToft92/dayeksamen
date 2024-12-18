@@ -1,6 +1,5 @@
-
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-image: url('billeder/cloth5.jpg'); background-size: cover; background-position: center;">
+<nav class="navbar navbar-expand-lg bg-body-tertiary"
+     style="background-image: url('billeder/cloth5.jpg'); background-size: cover; background-position: center;">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
             <img src="billeder/rtlogo.png" alt="Re-Trade Logo" style="height: 60px;">

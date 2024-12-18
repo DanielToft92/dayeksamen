@@ -13,9 +13,9 @@ require "settings/init.php";
 	<meta name="copyright" content="Information om copyright">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Re-Trade er din bæredygtige platform til tøjbytte. Deltag i vores events i Køge og gør en forskel for miljøet!">
-    <meta name="keywords" content="Re-Trade, tøjbytte, bæredygtighed, Køge, genbrug, events">
-    <meta name="author" content="Re-Trade">
+    <meta name="description" content="Re-trade er din bæredygtige platform til tøjbytte. Deltag i vores events i Køge og gør en forskel for miljøet!">
+    <meta name="keywords" content="Re-trade, tøjbytte, bæredygtighed, Køge, genbrug, events">
+    <meta name="author" content="Re-trade">
 
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">

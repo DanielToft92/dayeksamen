@@ -10,7 +10,7 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+        "farve": $cyan-400,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -23,248 +23,248 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 /* Hjemmeside Baggrund */
 
 body {
-	background-color: #9a8977;
-	color: #fff;
-	margin: 0;
-	padding: 0;
+  background-color: #9a8977;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 
 /* H1 */
 
-.h1omos{
-	font-family: "Playfair Display";
-	justify-content: center;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+.h1omos {
+  font-family: "Playfair Display";
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 header.h1omos h1 {
-	font-size: 3em;
-	color: #000000;
+  font-size: 3em;
+  color: #000000;
 }
 
 
 /* Banner */
 
 .banner {
-	color: white;
-	font-family: Playfair Display;
-	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-	height: 300px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+  color: white;
+  font-family: Playfair Display;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .banner h1 {
-	font-size: 4rem;
+  font-size: 4rem;
 }
 
 .banner p {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 
 @media (max-width: 430px) {
-	.banner h1 {
-		font-size: 3rem;
-	}
+  .banner h1 {
+    font-size: 3rem;
+  }
 
-	.banner p {
-		font-size: 1.5rem;
-	}
+  .banner p {
+    font-size: 1.5rem;
+  }
 
-	.banner {
-		height: 250px;
-	}
+  .banner {
+    height: 250px;
+  }
 }
 
 
 /* Kalender Cards */
 
 .card {
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-	background-color: #f9f9f9;
-	margin-left: 20px;
-	margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: #f9f9f9;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Card Header Styling */
 
 .card-header {
-	font-size: 1.25rem;
-	font-weight: bold;
-	color: #ece4cf;
-	text-align: center;
-	background-color: #023902;
-	border-bottom: 1px solid #978a6f;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ece4cf;
+  text-align: center;
+  background-color: #023902;
+  border-bottom: 1px solid #978a6f;
 }
 
 /* Card Body Styling */
 .card-body {
-	padding: 1.25rem;
-	color: #9a8977;
-	background-color: #ece4cf;
+  padding: 1.25rem;
+  color: #9a8977;
+  background-color: #ece4cf;
 }
 
 /* Card Footer Styling */
 .card-footer {
-	background-color: #023902;
-	color: #ece4cf;
-	font-size: 0.875rem;
-	text-align: center;
-	border-top: 1px solid #978a6f;
+  background-color: #023902;
+  color: #ece4cf;
+  font-size: 0.875rem;
+  text-align: center;
+  border-top: 1px solid #978a6f;
 }
 
 .row > .col-12:last-of-type .card {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Opslagstavle */
 
 /* Board styling */
 #board {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	gap: 15px;
-	padding: 20px;
-	background-color: #1a1a1a;
-	border: none;
-	min-height: 500px;
-	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border: none;
+  min-height: 500px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Add Note Button */
 #addNote {
-	background: linear-gradient(135deg, #876955, #ece4cf);
-	color: #fff;
-	font-family: 'Urbanist', sans-serif;
-	font-size: 1rem;
-	padding: 10px 15px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #876955, #ece4cf);
+  color: #fff;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 #addNote:hover {
-	background: linear-gradient(135deg, #ece4cf, #876955);
-	transform: scale(1.05);
+  background: linear-gradient(135deg, #ece4cf, #876955);
+  transform: scale(1.05);
 }
 
 /* Note styling */
 .note {
-	background: #9a8977;
-	padding: 15px;
-	border-radius: 8px;
-	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-	color: #fff;
-	font-family: 'Urbanist', sans-serif;
+  background: #9a8977;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: 'Urbanist', sans-serif;
 }
 
 /* Input and Textarea */
 .note input,
 .note textarea {
-	width: 100%;
-	margin-bottom: 10px;
-	padding: 8px;
-	background-color: #1a1a1a;
-	color: #fff;
-	border: 1px solid #555;
-	border-radius: 5px;
-	font-family: 'Urbanist', sans-serif;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 5px;
+  font-family: 'Urbanist', sans-serif;
 }
 
 .note input[disabled],
 .note textarea[disabled] {
-	background-color: #333;
-	color: #888;
-	border: 1px solid #444;
+  background-color: #333;
+  color: #888;
+  border: 1px solid #444;
 }
 
 /* Buttons */
 .note button {
-	padding: 8px 12px;
-	border: none;
-	border-radius: 5px;
-	font-family: 'Urbanist', sans-serif;
-	font-size: 0.9rem;
-	cursor: pointer;
-	transition: all 0.2s ease-in-out;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .note button.saveNote {
-	background-color: #00b894;
-	color: #fff;
+  background-color: #00b894;
+  color: #fff;
 }
 
 .note button.saveNote:hover {
-	background-color: #009874;
+  background-color: #009874;
 }
 
 .note button.deleteNote {
-	background-color: #d63031;
-	color: #fff;
+  background-color: #d63031;
+  color: #fff;
 }
 
 .note button.deleteNote:hover {
-	background-color: #b22022;
+  background-color: #b22022;
 }
 
 
 /* Footer */
 
 body {
-	margin: 0;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-content {
-	flex: 1;
+  flex: 1;
 }
 
 .footer {
-	background-color: #6B8E23;
-	color: #fff;
-	padding: 15px 0;
-	width: 100%;
-	text-align: center;
+  background-color: #6B8E23;
+  color: #fff;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
 }
 
 .footer h5 {
-	font-family: 'Playfair Display', serif;
-	font-size: 1.25rem;
-	margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
 }
 
 .footer p, .footer a {
-	font-size: 0.9rem;
-	margin: 5px 0;
-	color: #fff;
-	text-decoration: none;
+  font-size: 0.9rem;
+  margin: 5px 0;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer a:hover {
-	color: #00b894;
+  color: #00b894;
 }
 
 @media (max-width: 768px) {
-	.footer {
-		font-size: 0.8rem;
-		height: auto;
-	}
+  .footer {
+    font-size: 0.8rem;
+    height: auto;
+  }
 
-	.footer .row div {
-		margin-bottom: 10px;
-	}
+  .footer .row div {
+    margin-bottom: 10px;
+  }
 }
 

@@ -1,5 +1,3 @@
-
-
 <footer class="footer mt-auto py-3"
         style="background-image: url('billeder/cloth5.jpg'); background-size: cover; background-position: center; color: #000000;">
     <div class="container text-center">

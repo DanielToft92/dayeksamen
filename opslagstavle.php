@@ -13,14 +13,16 @@ require "settings/init.php";
     <meta name="copyright" content="Information om copyright">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Re-trade er din bæredygtige platform til tøjbytte. Deltag i vores events i Køge og gør en forskel for miljøet!">
+    <meta name="description"
+          content="Re-trade er din bæredygtige platform til tøjbytte. Deltag i vores events i Køge og gør en forskel for miljøet!">
     <meta name="keywords" content="Re-trade, tøjbytte, bæredygtighed, Køge, genbrug, events">
     <meta name="author" content="Re-trade">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+          rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -34,27 +36,25 @@ require "settings/init.php";
 </header>
 
 <main>
-<section id="bulletin-board" style="text-align: center;">
-    <p>Velkommen til opslagstavlen på Re-Trade – stedet hvor du kan vise dine mest unikke items frem og skabe interesse til vores næste event. Har du en særlig genstand, som du gerne vil bytte?</p>
-    <p> Måske en designerhåndtaske, en vintage jakke eller et par limited edition sneakers?</p>
-    <p> Del det her, så andre kan få øje på din vare og tage noget med, de tror, du vil være interesseret i.</p>
-    <p><strong>Sådan fungerer det:</strong></p>
-    <p>Skriv dit navn.</p>
-    <p>Angiv datoen, til hvilket kommende event varen kan findes til.</p>
-    <p>Tilføj en beskrivelse af varen – f.eks. mærke, størrelse og stand.</p>
-</section>
+    <section id="bulletin-board" style="text-align: center;">
+        <p>Velkommen til opslagstavlen på Re-Trade – stedet hvor du kan vise dine mest unikke items frem og skabe
+            interesse til vores næste event. Har du en særlig genstand, som du gerne vil bytte?</p>
+        <p> Måske en designerhåndtaske, en vintage jakke eller et par limited edition sneakers?</p>
+        <p> Del det her, så andre kan få øje på din vare og tage noget med, de tror, du vil være interesseret i.</p>
+        <p><strong>Sådan fungerer det:</strong></p>
+        <p>Skriv dit navn.</p>
+        <p>Angiv datoen, til hvilket kommende event varen kan findes til.</p>
+        <p>Tilføj en beskrivelse af varen – f.eks. mærke, størrelse og stand.</p>
+    </section>
 
 
-
-<div id="board">
-    <button id="addNote" aria-label="Tilføj en ny note">Tilføj note</button>
-</div>
+    <div id="board">
+        <button id="addNote" aria-label="Tilføj en ny note">Tilføj note</button>
+    </div>
 </main>
 
 
 <?php include("footer.php") ?>
-
-
 
 
 <script>
@@ -139,7 +139,7 @@ require "settings/init.php";
         localStorage.setItem('notes', JSON.stringify(notes));
     }
 
-    </script>
+</script>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

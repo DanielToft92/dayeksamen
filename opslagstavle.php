@@ -6,16 +6,16 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>Opslagstavle</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Re-Trade er din bæredygtige platform til tøjbytte. Deltag i vores events i Køge og gør en forskel for miljøet!">
-    <meta name="keywords" content="Re-Trade, tøjbytte, bæredygtighed, Køge, genbrug, events">
-    <meta name="author" content="Re-Trade">
+    <meta name="description" content="Re-trade er din bæredygtige platform til tøjbytte. Deltag i vores events i Køge og gør en forskel for miljøet!">
+    <meta name="keywords" content="Re-trade, tøjbytte, bæredygtighed, Køge, genbrug, events">
+    <meta name="author" content="Re-trade">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,11 +29,11 @@ require "settings/init.php";
 
 <?php include("navbar.php") ?>
 
-<div class="h1omos">
+<header class="h1omos">
     <h1>Opslagstavle</h1>
-</div>
+</header>
 
-<!-- Bulletin Board Section -->
+<main>
 <section id="bulletin-board" style="text-align: center;">
     <p>Velkommen til opslagstavlen på Re-Trade – stedet hvor du kan vise dine mest unikke items frem og skabe interesse til vores næste event. Har du en særlig genstand, som du gerne vil bytte?</p>
     <p> Måske en designerhåndtaske, en vintage jakke eller et par limited edition sneakers?</p>
@@ -47,8 +47,9 @@ require "settings/init.php";
 
 
 <div id="board">
-    <button id="addNote">Tilføj note</button>
+    <button id="addNote" aria-label="Tilføj en ny note">Tilføj note</button>
 </div>
+</main>
 
 
 <?php include("footer.php") ?>
@@ -82,8 +83,8 @@ require "settings/init.php";
     <input type="date" value="${date}" ${isSaved ? 'disabled' : ''} required>
     <textarea placeholder="Hvad sælger du?" rows="3" ${isSaved ? 'disabled' : ''} required>${description}</textarea>
     <div style="display: flex; gap: 10px; margin-top: 5px;">
-        <button class="saveNote" style="display: ${isSaved ? 'none' : 'block'};">Gem</button>
-        <button class="deleteNote">Slet</button>
+        <button class="saveNote" style="display: ${isSaved ? 'none' : 'block'};"aria-label="${isSaved ? 'Noten er allerede gemt' : 'Gem denne note'}">>Gem</button>
+        <button class="deleteNote" aria-label="Slet denne note">Slet</button>
     </div>
   `;
 

@@ -265,3 +265,25 @@ background-color: #b22022;
 
 
     </script>
+
+
+    /* Index paragraph */
+
+    .paragraph {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+    .paragraph {
+    font-size: 14px;
+    }
+    }
+
